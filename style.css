@@ -631,7 +631,6 @@ html[lang="ps"] h4,
 html[lang="ps"] h5,
 html[lang="ps"] h6 {
 	font-weight: bold;
-	letter-spacing: normal;
 }
 
 /* Typography for Chinese Font */
@@ -650,7 +649,6 @@ html[lang^="zh-"] h3,
 html[lang^="zh-"] h4,
 html[lang^="zh-"] h5,
 html[lang^="zh-"] h6 {
-	letter-spacing: normal;
 	font-weight: 700;
 }
 
@@ -735,7 +733,6 @@ html[lang="mr-IN"] h4,
 html[lang="mr-IN"] h5,
 html[lang="mr-IN"] h6 {
 	font-weight: bold;
-	letter-spacing: normal;
 }
 
 /* Typography for Greek Font */
@@ -775,7 +772,6 @@ html[lang="gu-IN"] h4,
 html[lang="gu-IN"] h5,
 html[lang="gu-IN"] h6 {
 	font-weight: bold;
-	letter-spacing: normal;
 }
 
 /* Typography for Hebrew Font */
@@ -795,7 +791,6 @@ html[lang="he-IL"] h4,
 html[lang="he-IL"] h5,
 html[lang="he-IL"] h6 {
 	font-weight: bold;
-	letter-spacing: normal;
 }
 
 /* Typography for Japanese Font */
@@ -814,7 +809,6 @@ html[lang="ja"] h3,
 html[lang="ja"] h4,
 html[lang="ja"] h5,
 html[lang="ja"] h6 {
-	letter-spacing: normal;
 	font-weight: 700;
 }
 
@@ -845,7 +839,6 @@ html[lang="th"] h3,
 html[lang="th"] h4,
 html[lang="th"] h5,
 html[lang="th"] h6 {
-	letter-spacing: 0;
 	line-height: 1.65;
 }
 
@@ -877,7 +870,7 @@ html[lang="he-IL"] *,
 html[lang="ja"] *,
 html[lang="ko-KR"] *,
 html[lang="th"] * {
-	letter-spacing: normal !important;
+	letter-spacing: 0 !important;
 }
 
 /*--------------------------------------------------------------
