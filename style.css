@@ -877,7 +877,7 @@ html[lang="he-IL"] *,
 html[lang="ja"] *,
 html[lang="ko-KR"] *,
 html[lang="th"] * {
-	letter-spacing: normal;
+	letter-spacing: normal !important;
 }
 
 /*--------------------------------------------------------------
